@@ -1,0 +1,46 @@
+{
+  "name": "angualr1.x-es6",
+  "version": "1.0.0",
+  "description": "angular1.x with es6 babel browserify",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bernardzhang/AngularWithES6.git"
+  },
+  "keywords": [
+    "angular",
+    "es6",
+    "babel",
+    "spa"
+  ],
+  "author": "zhangyou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bernardzhang/AngularWithES6/issues"
+  },
+  "homepage": "https://github.com/bernardzhang/AngularWithES6#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.22.0",
+    "html-webpack-template": "^5.0.0",
+    "raw-loader": "^0.5.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-merge": "^0.14.0"
+  },
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-ui-router": "^0.3.1",
+    "babel-polyfill": "^6.9.1",
+    "jquery": "^3.1.0",
+    "oclazyload": "^1.0.9"
+  }
+}
